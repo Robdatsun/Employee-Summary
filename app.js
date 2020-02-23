@@ -1,13 +1,13 @@
-const Manager = require("./lib/Manager");
-const Engineer = require("./lib/Engineer");
-const Intern = require("./lib/Intern");
+const Manager = require("./Manager");
+const Engineer = require("./Engineer");
+const Intern = require("./Intern");
 const inquirer = require("inquirer");
 const path = require("path");
 const fs = require("fs");
 
-const outputPath = path.resolve(__dirname, "output", "team.html");
+const outputPath = path.resolve(__dirname, "main.html");
 
-const render = require("./lib/htmlRenderer");
+const render = require("./htmlRender");
 
 const teamMembers = [];
 const idArray = [];
